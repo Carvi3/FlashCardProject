@@ -1,0 +1,6 @@
+@FlashCardAPI_HostAddress = http://localhost:5093
+
+GET {{FlashCardAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
