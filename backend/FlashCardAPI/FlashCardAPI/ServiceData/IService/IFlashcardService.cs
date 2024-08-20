@@ -6,16 +6,16 @@ namespace FlashCardAPI.ServiceData.IService
     {
         //Create
         Task<Flashcard> InsertFlashcard(string question, string? answer, Guid deckId);
-        Task PutFlashcard(Guid id, string question, string? answer, Guid deckId);
+        Task PutFlashcard(Flashcard card);
         //Read
 
         Task<IEnumerable<Flashcard>> GetAllFlashcards();
-        Task<IEnumerable<Flashcard>> GetAllFlashcardsBydeckId(Guid deckId);
+        Task<IEnumerable<Flashcard>> GetAllFlashcardsByDeckId(Guid deckId);
         Task<IEnumerable<Flashcard>> GetAllFlashcardsByUserId(Guid userId);
 
         Task<Flashcard> GetFlashcardById(Guid id);
         //Update
-        Task<User> UpdateFlashcard(Guid id, Flashcard flashcard);
+        Task<Flashcard> UpdateFlashcard(Guid id, Flashcard flashcard);
         //Delete
         Task DeleteFlashcard(Guid id);
     }

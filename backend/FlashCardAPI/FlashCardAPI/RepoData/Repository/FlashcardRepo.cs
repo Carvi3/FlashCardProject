@@ -1,4 +1,5 @@
 ﻿using FlashCardAPI.Contexts;
+using FlashCardAPI.Exceptions;
 using FlashCardAPI.Model;
 using FlashCardAPI.RepoData.IRepository;
 using Microsoft.EntityFrameworkCore;
@@ -42,24 +43,38 @@ namespace FlashCardAPI.RepoData.Repository
             throw new NotImplementedException();
         }
 
-        public Task<Flashcard> GetFlashcardById(Guid id)
+        public async Task<Flashcard> GetFlashcardById(Guid id)
         {
-            throw new NotImplementedException();
+            Flashcard foundCard = await _context.Flashcard.FindAsync(id);
+            return foundCard ?? throw new ContentNotFoundException("There was an error retrieving the flashcard");
         }
 
-        public Task<Flashcard> InsertFlashcard(string question, string? answer, Guid deckId)
+        public async Task<Flashcard> InsertFlashcard(string question, string? answer, Guid deckId)
         {
-            throw new NotImplementedException();
+            Flashcard card = _context.Flashcard.Add(new Flashcard(question, answer, deckId)).Entity;
+            await _context.SaveChangesAsync();
+            return card ?? throw new Exception("Flashcard could not be added");
         }
 
-        public Task PutFlashcard(Flashcard flashcard)
+        public async Task PutFlashcard(Flashcard flashcard)
         {
-            throw new NotImplementedException();
+            _context.Flashcard.Add(flashcard);
+            await _context.SaveChangesAsync();
         }
 
-        public Task<User> UpdateFlashcard(Guid id, Flashcard flashcard)
+        public async Task<Flashcard> UpdateFlashcard(Guid id, Flashcard flashcard)
         {
-            throw new NotImplementedException();
+            Flashcard changeCard = await _context.Flashcard.FindAsync(id);
+            if(changeCard != null)
+            {
+                changeCard.Id = flashcard.Id;
+                changeCard.Question = flashcard.Question;
+                changeCard.Answer = flashcard.Answer;
+                changeCard.DeckId = flashcard.DeckId;
+                await _context.SaveChangesAsync();
+                return changeCard;
+            }
+            throw new Exception("Flashcard was not able to be updated");
         }
     }
 }

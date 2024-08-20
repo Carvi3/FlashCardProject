@@ -6,7 +6,7 @@ namespace FlashCardAPI.ServiceData.IService
     {
         //Create
         Task<Deck> InsertDeck(string name, string category, string description, Guid userId);
-        Task PutDeck(Guid id, string name, string category, string description, Guid userId);
+        Task PutDeck(Deck deck);
         //Read
         Task<IEnumerable<Deck>> GetAllDecks();
         Task<IEnumerable<Deck>> GetAllDecksByUserId(Guid userId);

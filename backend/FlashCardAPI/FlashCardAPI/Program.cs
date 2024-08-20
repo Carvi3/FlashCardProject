@@ -21,7 +21,10 @@ builder.Services.AddDbContext<UserContext>(
 
 builder.Services.AddTransient<IUserRepo, UserRepo>();
 builder.Services.AddTransient<IUserService, UserService>();
-
+builder.Services.AddTransient<IDeckRepo, DeckRepo>();
+builder.Services.AddTransient<IDeckService, DeckService>();
+builder.Services.AddTransient<IFlashcardRepo, FlashcardRepo>();
+builder.Services.AddTransient<IFlashcardService, FlashcardService>();
 
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

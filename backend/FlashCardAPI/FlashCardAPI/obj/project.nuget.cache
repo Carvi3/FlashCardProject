@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OhT1qx0A8GA=",
+  "dgSpecHash": "SxwGq6LqRkA=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Macho\\source\\repos\\FlashCardAPI\\FlashCardAPI\\FlashCardAPI.csproj",
+  "projectFilePath": "C:\\Users\\Macho\\Documents\\VisualStudio_Workspace\\Revature\\c_react\\flashcard_Project\\backend\\FlashCardAPI\\FlashCardAPI\\FlashCardAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Macho\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Macho\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FlashCardAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+910fa07e4f52310a8a6ab82d7abf5e2a0b652b58")]
 [assembly: System.Reflection.AssemblyProductAttribute("FlashCardAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FlashCardAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

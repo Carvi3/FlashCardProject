@@ -1,85 +1,105 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Macho\\source\\repos\\FlashCardAPI\\",
+  "WorkspaceRootPath": "C:\\Users\\Macho\\Documents\\VisualStudio_Workspace\\Revature\\c_react\\flashcard_Project\\backend\\FlashCardAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3497D861-44D8-42F9-80D7-6472F94CA17A}|FlashCardAPI\\FlashCardAPI.csproj|c:\\users\\macho\\source\\repos\\flashcardapi\\flashcardapi\\repodata\\repository\\flashcardrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3497D861-44D8-42F9-80D7-6472F94CA17A}|FlashCardAPI\\FlashCardAPI.csproj|solutionrelative:flashcardapi\\repodata\\repository\\flashcardrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3497D861-44D8-42F9-80D7-6472F94CA17A}|FlashCardAPI\\FlashCardAPI.csproj|c:\\users\\macho\\documents\\visualstudio_workspace\\revature\\c_react\\flashcard_project\\backend\\flashcardapi\\flashcardapi\\controllers\\flashcardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3497D861-44D8-42F9-80D7-6472F94CA17A}|FlashCardAPI\\FlashCardAPI.csproj|solutionrelative:flashcardapi\\controllers\\flashcardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3497D861-44D8-42F9-80D7-6472F94CA17A}|FlashCardAPI\\FlashCardAPI.csproj|c:\\users\\macho\\source\\repos\\flashcardapi\\flashcardapi\\repodata\\repository\\deckrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3497D861-44D8-42F9-80D7-6472F94CA17A}|FlashCardAPI\\FlashCardAPI.csproj|solutionrelative:flashcardapi\\repodata\\repository\\deckrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3497D861-44D8-42F9-80D7-6472F94CA17A}|FlashCardAPI\\FlashCardAPI.csproj|c:\\users\\macho\\source\\repos\\flashcardapi\\flashcardapi\\repodata\\repository\\userrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3497D861-44D8-42F9-80D7-6472F94CA17A}|FlashCardAPI\\FlashCardAPI.csproj|solutionrelative:flashcardapi\\repodata\\repository\\userrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3497D861-44D8-42F9-80D7-6472F94CA17A}|FlashCardAPI\\FlashCardAPI.csproj|c:\\users\\macho\\source\\repos\\flashcardapi\\flashcardapi\\model\\flashcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3497D861-44D8-42F9-80D7-6472F94CA17A}|FlashCardAPI\\FlashCardAPI.csproj|solutionrelative:flashcardapi\\model\\flashcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3497D861-44D8-42F9-80D7-6472F94CA17A}|FlashCardAPI\\FlashCardAPI.csproj|c:\\users\\macho\\source\\repos\\flashcardapi\\flashcardapi\\model\\deck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3497D861-44D8-42F9-80D7-6472F94CA17A}|FlashCardAPI\\FlashCardAPI.csproj|solutionrelative:flashcardapi\\model\\deck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3497D861-44D8-42F9-80D7-6472F94CA17A}|FlashCardAPI\\FlashCardAPI.csproj|c:\\users\\macho\\source\\repos\\flashcardapi\\flashcardapi\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3497D861-44D8-42F9-80D7-6472F94CA17A}|FlashCardAPI\\FlashCardAPI.csproj|solutionrelative:flashcardapi\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3497D861-44D8-42F9-80D7-6472F94CA17A}|FlashCardAPI\\FlashCardAPI.csproj|c:\\users\\macho\\source\\repos\\flashcardapi\\flashcardapi\\exceptions\\contentnotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3497D861-44D8-42F9-80D7-6472F94CA17A}|FlashCardAPI\\FlashCardAPI.csproj|solutionrelative:flashcardapi\\exceptions\\contentnotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3497D861-44D8-42F9-80D7-6472F94CA17A}|FlashCardAPI\\FlashCardAPI.csproj|c:\\users\\macho\\source\\repos\\flashcardapi\\flashcardapi\\repodata\\irepository\\iuserrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3497D861-44D8-42F9-80D7-6472F94CA17A}|FlashCardAPI\\FlashCardAPI.csproj|solutionrelative:flashcardapi\\repodata\\irepository\\iuserrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3497D861-44D8-42F9-80D7-6472F94CA17A}|FlashCardAPI\\FlashCardAPI.csproj|c:\\users\\macho\\source\\repos\\flashcardapi\\flashcardapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3497D861-44D8-42F9-80D7-6472F94CA17A}|FlashCardAPI\\FlashCardAPI.csproj|solutionrelative:flashcardapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3497D861-44D8-42F9-80D7-6472F94CA17A}|FlashCardAPI\\FlashCardAPI.csproj|c:\\users\\macho\\source\\repos\\flashcardapi\\flashcardapi\\servicedata\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3497D861-44D8-42F9-80D7-6472F94CA17A}|FlashCardAPI\\FlashCardAPI.csproj|solutionrelative:flashcardapi\\servicedata\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3497D861-44D8-42F9-80D7-6472F94CA17A}|FlashCardAPI\\FlashCardAPI.csproj|c:\\users\\macho\\source\\repos\\flashcardapi\\flashcardapi\\servicedata\\iservice\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3497D861-44D8-42F9-80D7-6472F94CA17A}|FlashCardAPI\\FlashCardAPI.csproj|solutionrelative:flashcardapi\\servicedata\\iservice\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3497D861-44D8-42F9-80D7-6472F94CA17A}|FlashCardAPI\\FlashCardAPI.csproj|c:\\users\\macho\\source\\repos\\flashcardapi\\flashcardapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3497D861-44D8-42F9-80D7-6472F94CA17A}|FlashCardAPI\\FlashCardAPI.csproj|c:\\users\\macho\\documents\\visualstudio_workspace\\revature\\c_react\\flashcard_project\\backend\\flashcardapi\\flashcardapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3497D861-44D8-42F9-80D7-6472F94CA17A}|FlashCardAPI\\FlashCardAPI.csproj|solutionrelative:flashcardapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3497D861-44D8-42F9-80D7-6472F94CA17A}|FlashCardAPI\\FlashCardAPI.csproj|c:\\users\\macho\\source\\repos\\flashcardapi\\flashcardapi\\contexts\\usercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3497D861-44D8-42F9-80D7-6472F94CA17A}|FlashCardAPI\\FlashCardAPI.csproj|c:\\users\\macho\\documents\\visualstudio_workspace\\revature\\c_react\\flashcard_project\\backend\\flashcardapi\\flashcardapi\\repodata\\irepository\\iflashcardrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3497D861-44D8-42F9-80D7-6472F94CA17A}|FlashCardAPI\\FlashCardAPI.csproj|solutionrelative:flashcardapi\\repodata\\irepository\\iflashcardrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3497D861-44D8-42F9-80D7-6472F94CA17A}|FlashCardAPI\\FlashCardAPI.csproj|c:\\users\\macho\\documents\\visualstudio_workspace\\revature\\c_react\\flashcard_project\\backend\\flashcardapi\\flashcardapi\\repodata\\irepository\\iuserrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3497D861-44D8-42F9-80D7-6472F94CA17A}|FlashCardAPI\\FlashCardAPI.csproj|solutionrelative:flashcardapi\\repodata\\irepository\\iuserrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3497D861-44D8-42F9-80D7-6472F94CA17A}|FlashCardAPI\\FlashCardAPI.csproj|c:\\users\\macho\\documents\\visualstudio_workspace\\revature\\c_react\\flashcard_project\\backend\\flashcardapi\\flashcardapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3497D861-44D8-42F9-80D7-6472F94CA17A}|FlashCardAPI\\FlashCardAPI.csproj|solutionrelative:flashcardapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3497D861-44D8-42F9-80D7-6472F94CA17A}|FlashCardAPI\\FlashCardAPI.csproj|c:\\users\\macho\\documents\\visualstudio_workspace\\revature\\c_react\\flashcard_project\\backend\\flashcardapi\\flashcardapi\\repodata\\repository\\deckrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3497D861-44D8-42F9-80D7-6472F94CA17A}|FlashCardAPI\\FlashCardAPI.csproj|solutionrelative:flashcardapi\\repodata\\repository\\deckrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3497D861-44D8-42F9-80D7-6472F94CA17A}|FlashCardAPI\\FlashCardAPI.csproj|c:\\users\\macho\\documents\\visualstudio_workspace\\revature\\c_react\\flashcard_project\\backend\\flashcardapi\\flashcardapi\\servicedata\\service\\deckservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3497D861-44D8-42F9-80D7-6472F94CA17A}|FlashCardAPI\\FlashCardAPI.csproj|solutionrelative:flashcardapi\\servicedata\\service\\deckservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3497D861-44D8-42F9-80D7-6472F94CA17A}|FlashCardAPI\\FlashCardAPI.csproj|c:\\users\\macho\\documents\\visualstudio_workspace\\revature\\c_react\\flashcard_project\\backend\\flashcardapi\\flashcardapi\\servicedata\\service\\flashcardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3497D861-44D8-42F9-80D7-6472F94CA17A}|FlashCardAPI\\FlashCardAPI.csproj|solutionrelative:flashcardapi\\servicedata\\service\\flashcardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3497D861-44D8-42F9-80D7-6472F94CA17A}|FlashCardAPI\\FlashCardAPI.csproj|c:\\users\\macho\\documents\\visualstudio_workspace\\revature\\c_react\\flashcard_project\\backend\\flashcardapi\\flashcardapi\\controllers\\deckcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3497D861-44D8-42F9-80D7-6472F94CA17A}|FlashCardAPI\\FlashCardAPI.csproj|solutionrelative:flashcardapi\\controllers\\deckcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3497D861-44D8-42F9-80D7-6472F94CA17A}|FlashCardAPI\\FlashCardAPI.csproj|c:\\users\\macho\\documents\\visualstudio_workspace\\revature\\c_react\\flashcard_project\\backend\\flashcardapi\\flashcardapi\\servicedata\\iservice\\iflashcardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3497D861-44D8-42F9-80D7-6472F94CA17A}|FlashCardAPI\\FlashCardAPI.csproj|solutionrelative:flashcardapi\\servicedata\\iservice\\iflashcardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3497D861-44D8-42F9-80D7-6472F94CA17A}|FlashCardAPI\\FlashCardAPI.csproj|c:\\users\\macho\\documents\\visualstudio_workspace\\revature\\c_react\\flashcard_project\\backend\\flashcardapi\\flashcardapi\\servicedata\\iservice\\ideckservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3497D861-44D8-42F9-80D7-6472F94CA17A}|FlashCardAPI\\FlashCardAPI.csproj|solutionrelative:flashcardapi\\servicedata\\iservice\\ideckservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3497D861-44D8-42F9-80D7-6472F94CA17A}|FlashCardAPI\\FlashCardAPI.csproj|c:\\users\\macho\\documents\\visualstudio_workspace\\revature\\c_react\\flashcard_project\\backend\\flashcardapi\\flashcardapi\\model\\flashcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3497D861-44D8-42F9-80D7-6472F94CA17A}|FlashCardAPI\\FlashCardAPI.csproj|solutionrelative:flashcardapi\\model\\flashcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3497D861-44D8-42F9-80D7-6472F94CA17A}|FlashCardAPI\\FlashCardAPI.csproj|c:\\users\\macho\\documents\\visualstudio_workspace\\revature\\c_react\\flashcard_project\\backend\\flashcardapi\\flashcardapi\\repodata\\repository\\userrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3497D861-44D8-42F9-80D7-6472F94CA17A}|FlashCardAPI\\FlashCardAPI.csproj|solutionrelative:flashcardapi\\repodata\\repository\\userrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3497D861-44D8-42F9-80D7-6472F94CA17A}|FlashCardAPI\\FlashCardAPI.csproj|c:\\users\\macho\\documents\\visualstudio_workspace\\revature\\c_react\\flashcard_project\\backend\\flashcardapi\\flashcardapi\\model\\deck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3497D861-44D8-42F9-80D7-6472F94CA17A}|FlashCardAPI\\FlashCardAPI.csproj|solutionrelative:flashcardapi\\model\\deck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3497D861-44D8-42F9-80D7-6472F94CA17A}|FlashCardAPI\\FlashCardAPI.csproj|c:\\users\\macho\\documents\\visualstudio_workspace\\revature\\c_react\\flashcard_project\\backend\\flashcardapi\\flashcardapi\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3497D861-44D8-42F9-80D7-6472F94CA17A}|FlashCardAPI\\FlashCardAPI.csproj|solutionrelative:flashcardapi\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3497D861-44D8-42F9-80D7-6472F94CA17A}|FlashCardAPI\\FlashCardAPI.csproj|c:\\users\\macho\\documents\\visualstudio_workspace\\revature\\c_react\\flashcard_project\\backend\\flashcardapi\\flashcardapi\\servicedata\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3497D861-44D8-42F9-80D7-6472F94CA17A}|FlashCardAPI\\FlashCardAPI.csproj|solutionrelative:flashcardapi\\servicedata\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3497D861-44D8-42F9-80D7-6472F94CA17A}|FlashCardAPI\\FlashCardAPI.csproj|c:\\users\\macho\\documents\\visualstudio_workspace\\revature\\c_react\\flashcard_project\\backend\\flashcardapi\\flashcardapi\\servicedata\\iservice\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3497D861-44D8-42F9-80D7-6472F94CA17A}|FlashCardAPI\\FlashCardAPI.csproj|solutionrelative:flashcardapi\\servicedata\\iservice\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3497D861-44D8-42F9-80D7-6472F94CA17A}|FlashCardAPI\\FlashCardAPI.csproj|c:\\users\\macho\\documents\\visualstudio_workspace\\revature\\c_react\\flashcard_project\\backend\\flashcardapi\\flashcardapi\\contexts\\usercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3497D861-44D8-42F9-80D7-6472F94CA17A}|FlashCardAPI\\FlashCardAPI.csproj|solutionrelative:flashcardapi\\contexts\\usercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3497D861-44D8-42F9-80D7-6472F94CA17A}|FlashCardAPI\\FlashCardAPI.csproj|c:\\users\\macho\\source\\repos\\flashcardapi\\flashcardapi\\migrations\\20240816205240_adduser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3497D861-44D8-42F9-80D7-6472F94CA17A}|FlashCardAPI\\FlashCardAPI.csproj|c:\\users\\macho\\documents\\visualstudio_workspace\\revature\\c_react\\flashcard_project\\backend\\flashcardapi\\flashcardapi\\migrations\\20240816205240_adduser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3497D861-44D8-42F9-80D7-6472F94CA17A}|FlashCardAPI\\FlashCardAPI.csproj|solutionrelative:flashcardapi\\migrations\\20240816205240_adduser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3497D861-44D8-42F9-80D7-6472F94CA17A}|FlashCardAPI\\FlashCardAPI.csproj|c:\\users\\macho\\source\\repos\\flashcardapi\\flashcardapi\\model\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3497D861-44D8-42F9-80D7-6472F94CA17A}|FlashCardAPI\\FlashCardAPI.csproj|c:\\users\\macho\\documents\\visualstudio_workspace\\revature\\c_react\\flashcard_project\\backend\\flashcardapi\\flashcardapi\\model\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3497D861-44D8-42F9-80D7-6472F94CA17A}|FlashCardAPI\\FlashCardAPI.csproj|solutionrelative:flashcardapi\\model\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3497D861-44D8-42F9-80D7-6472F94CA17A}|FlashCardAPI\\FlashCardAPI.csproj|c:\\users\\macho\\source\\repos\\flashcardapi\\flashcardapi\\migrations\\usercontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3497D861-44D8-42F9-80D7-6472F94CA17A}|FlashCardAPI\\FlashCardAPI.csproj|c:\\users\\macho\\documents\\visualstudio_workspace\\revature\\c_react\\flashcard_project\\backend\\flashcardapi\\flashcardapi\\migrations\\usercontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3497D861-44D8-42F9-80D7-6472F94CA17A}|FlashCardAPI\\FlashCardAPI.csproj|solutionrelative:flashcardapi\\migrations\\usercontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3497D861-44D8-42F9-80D7-6472F94CA17A}|FlashCardAPI\\FlashCardAPI.csproj|c:\\users\\macho\\source\\repos\\flashcardapi\\flashcardapi\\flashcardapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{3497D861-44D8-42F9-80D7-6472F94CA17A}|FlashCardAPI\\FlashCardAPI.csproj|c:\\users\\macho\\documents\\visualstudio_workspace\\revature\\c_react\\flashcard_project\\backend\\flashcardapi\\flashcardapi\\flashcardapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{3497D861-44D8-42F9-80D7-6472F94CA17A}|FlashCardAPI\\FlashCardAPI.csproj|solutionrelative:flashcardapi\\flashcardapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3497D861-44D8-42F9-80D7-6472F94CA17A}|FlashCardAPI\\FlashCardAPI.csproj|c:\\users\\macho\\source\\repos\\flashcardapi\\flashcardapi\\exceptions\\middlewareexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3497D861-44D8-42F9-80D7-6472F94CA17A}|FlashCardAPI\\FlashCardAPI.csproj|c:\\users\\macho\\documents\\visualstudio_workspace\\revature\\c_react\\flashcard_project\\backend\\flashcardapi\\flashcardapi\\exceptions\\middlewareexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3497D861-44D8-42F9-80D7-6472F94CA17A}|FlashCardAPI\\FlashCardAPI.csproj|solutionrelative:flashcardapi\\exceptions\\middlewareexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3497D861-44D8-42F9-80D7-6472F94CA17A}|FlashCardAPI\\FlashCardAPI.csproj|c:\\users\\macho\\source\\repos\\flashcardapi\\flashcardapi\\exceptions\\authenticationfailedexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3497D861-44D8-42F9-80D7-6472F94CA17A}|FlashCardAPI\\FlashCardAPI.csproj|c:\\users\\macho\\documents\\visualstudio_workspace\\revature\\c_react\\flashcard_project\\backend\\flashcardapi\\flashcardapi\\exceptions\\authenticationfailedexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3497D861-44D8-42F9-80D7-6472F94CA17A}|FlashCardAPI\\FlashCardAPI.csproj|solutionrelative:flashcardapi\\exceptions\\authenticationfailedexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3497D861-44D8-42F9-80D7-6472F94CA17A}|FlashCardAPI\\FlashCardAPI.csproj|c:\\users\\macho\\source\\repos\\flashcardapi\\flashcardapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{3497D861-44D8-42F9-80D7-6472F94CA17A}|FlashCardAPI\\FlashCardAPI.csproj|c:\\users\\macho\\documents\\visualstudio_workspace\\revature\\c_react\\flashcard_project\\backend\\flashcardapi\\flashcardapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{3497D861-44D8-42F9-80D7-6472F94CA17A}|FlashCardAPI\\FlashCardAPI.csproj|solutionrelative:flashcardapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
@@ -89,33 +109,21 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 230,
+          "DockedWidth": 265,
           "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "FlashcardRepo.cs",
-              "DocumentMoniker": "C:\\Users\\Macho\\source\\repos\\FlashCardAPI\\FlashCardAPI\\RepoData\\Repository\\FlashcardRepo.cs",
-              "RelativeDocumentMoniker": "FlashCardAPI\\RepoData\\Repository\\FlashcardRepo.cs",
-              "ToolTip": "C:\\Users\\Macho\\source\\repos\\FlashCardAPI\\FlashCardAPI\\RepoData\\Repository\\FlashcardRepo.cs",
-              "RelativeToolTip": "FlashCardAPI\\RepoData\\Repository\\FlashcardRepo.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAowCMAAAAqAAAAAAAAAA==",
+              "Title": "FlashcardController.cs",
+              "DocumentMoniker": "C:\\Users\\Macho\\Documents\\VisualStudio_Workspace\\Revature\\c_react\\flashcard_Project\\backend\\FlashCardAPI\\FlashCardAPI\\Controllers\\FlashcardController.cs",
+              "RelativeDocumentMoniker": "FlashCardAPI\\Controllers\\FlashcardController.cs",
+              "ToolTip": "C:\\Users\\Macho\\Documents\\VisualStudio_Workspace\\Revature\\c_react\\flashcard_Project\\backend\\FlashCardAPI\\FlashCardAPI\\Controllers\\FlashcardController.cs",
+              "RelativeToolTip": "FlashCardAPI\\Controllers\\FlashcardController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T19:46:17.286Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ContentNotFoundException.cs",
-              "DocumentMoniker": "C:\\Users\\Macho\\source\\repos\\FlashCardAPI\\FlashCardAPI\\Exceptions\\ContentNotFoundException.cs",
-              "RelativeDocumentMoniker": "FlashCardAPI\\Exceptions\\ContentNotFoundException.cs",
-              "ToolTip": "C:\\Users\\Macho\\source\\repos\\FlashCardAPI\\FlashCardAPI\\Exceptions\\ContentNotFoundException.cs",
-              "RelativeToolTip": "FlashCardAPI\\Exceptions\\ContentNotFoundException.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T19:21:39.629Z",
+              "WhenOpened": "2024-08-20T20:51:44.773Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
@@ -124,36 +132,89 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\Macho\\source\\repos\\FlashCardAPI\\FlashCardAPI\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "FlashCardAPI\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\Macho\\source\\repos\\FlashCardAPI\\FlashCardAPI\\Controllers\\UserController.cs",
-              "RelativeToolTip": "FlashCardAPI\\Controllers\\UserController.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAowCoAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "DeckRepo.cs",
+              "DocumentMoniker": "C:\\Users\\Macho\\Documents\\VisualStudio_Workspace\\Revature\\c_react\\flashcard_Project\\backend\\FlashCardAPI\\FlashCardAPI\\RepoData\\Repository\\DeckRepo.cs",
+              "RelativeDocumentMoniker": "FlashCardAPI\\RepoData\\Repository\\DeckRepo.cs",
+              "ToolTip": "C:\\Users\\Macho\\Documents\\VisualStudio_Workspace\\Revature\\c_react\\flashcard_Project\\backend\\FlashCardAPI\\FlashCardAPI\\RepoData\\Repository\\DeckRepo.cs",
+              "RelativeToolTip": "FlashCardAPI\\RepoData\\Repository\\DeckRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-18T20:09:46.28Z"
+              "WhenOpened": "2024-08-20T21:34:31.069Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 6,
+              "Title": "DeckService.cs",
+              "DocumentMoniker": "C:\\Users\\Macho\\Documents\\VisualStudio_Workspace\\Revature\\c_react\\flashcard_Project\\backend\\FlashCardAPI\\FlashCardAPI\\ServiceData\\Service\\DeckService.cs",
+              "RelativeDocumentMoniker": "FlashCardAPI\\ServiceData\\Service\\DeckService.cs",
+              "ToolTip": "C:\\Users\\Macho\\Documents\\VisualStudio_Workspace\\Revature\\c_react\\flashcard_Project\\backend\\FlashCardAPI\\FlashCardAPI\\ServiceData\\Service\\DeckService.cs",
+              "RelativeToolTip": "FlashCardAPI\\ServiceData\\Service\\DeckService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T21:34:18.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FlashcardService.cs",
+              "DocumentMoniker": "C:\\Users\\Macho\\Documents\\VisualStudio_Workspace\\Revature\\c_react\\flashcard_Project\\backend\\FlashCardAPI\\FlashCardAPI\\ServiceData\\Service\\FlashcardService.cs",
+              "RelativeDocumentMoniker": "FlashCardAPI\\ServiceData\\Service\\FlashcardService.cs",
+              "ToolTip": "C:\\Users\\Macho\\Documents\\VisualStudio_Workspace\\Revature\\c_react\\flashcard_Project\\backend\\FlashCardAPI\\FlashCardAPI\\ServiceData\\Service\\FlashcardService.cs",
+              "RelativeToolTip": "FlashCardAPI\\ServiceData\\Service\\FlashcardService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T20:58:12.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Macho\\source\\repos\\FlashCardAPI\\FlashCardAPI\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Macho\\Documents\\VisualStudio_Workspace\\Revature\\c_react\\flashcard_Project\\backend\\FlashCardAPI\\FlashCardAPI\\Program.cs",
               "RelativeDocumentMoniker": "FlashCardAPI\\Program.cs",
-              "ToolTip": "C:\\Users\\Macho\\source\\repos\\FlashCardAPI\\FlashCardAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\Macho\\Documents\\VisualStudio_Workspace\\Revature\\c_react\\flashcard_Project\\backend\\FlashCardAPI\\FlashCardAPI\\Program.cs",
               "RelativeToolTip": "FlashCardAPI\\Program.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-16T18:13:28.334Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 10,
+              "Title": "IDeckService.cs",
+              "DocumentMoniker": "C:\\Users\\Macho\\Documents\\VisualStudio_Workspace\\Revature\\c_react\\flashcard_Project\\backend\\FlashCardAPI\\FlashCardAPI\\ServiceData\\IService\\IDeckService.cs",
+              "RelativeDocumentMoniker": "FlashCardAPI\\ServiceData\\IService\\IDeckService.cs",
+              "ToolTip": "C:\\Users\\Macho\\Documents\\VisualStudio_Workspace\\Revature\\c_react\\flashcard_Project\\backend\\FlashCardAPI\\FlashCardAPI\\ServiceData\\IService\\IDeckService.cs",
+              "RelativeToolTip": "FlashCardAPI\\ServiceData\\IService\\IDeckService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T20:58:09.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IFlashcardService.cs",
+              "DocumentMoniker": "C:\\Users\\Macho\\Documents\\VisualStudio_Workspace\\Revature\\c_react\\flashcard_Project\\backend\\FlashCardAPI\\FlashCardAPI\\ServiceData\\IService\\IFlashcardService.cs",
+              "RelativeDocumentMoniker": "FlashCardAPI\\ServiceData\\IService\\IFlashcardService.cs",
+              "ToolTip": "C:\\Users\\Macho\\Documents\\VisualStudio_Workspace\\Revature\\c_react\\flashcard_Project\\backend\\FlashCardAPI\\FlashCardAPI\\ServiceData\\IService\\IFlashcardService.cs",
+              "RelativeToolTip": "FlashCardAPI\\ServiceData\\IService\\IFlashcardService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T20:58:01.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "Admin.cs",
-              "DocumentMoniker": "C:\\Users\\Macho\\source\\repos\\FlashCardAPI\\FlashCardAPI\\Model\\Admin.cs",
+              "DocumentMoniker": "C:\\Users\\Macho\\Documents\\VisualStudio_Workspace\\Revature\\c_react\\flashcard_Project\\backend\\FlashCardAPI\\FlashCardAPI\\Model\\Admin.cs",
               "RelativeDocumentMoniker": "FlashCardAPI\\Model\\Admin.cs",
-              "ToolTip": "C:\\Users\\Macho\\source\\repos\\FlashCardAPI\\FlashCardAPI\\Model\\Admin.cs",
+              "ToolTip": "C:\\Users\\Macho\\Documents\\VisualStudio_Workspace\\Revature\\c_react\\flashcard_Project\\backend\\FlashCardAPI\\FlashCardAPI\\Model\\Admin.cs",
               "RelativeToolTip": "FlashCardAPI\\Model\\Admin.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -161,11 +222,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 21,
               "Title": "FlashCardAPI.csproj",
-              "DocumentMoniker": "C:\\Users\\Macho\\source\\repos\\FlashCardAPI\\FlashCardAPI\\FlashCardAPI.csproj",
+              "DocumentMoniker": "C:\\Users\\Macho\\Documents\\VisualStudio_Workspace\\Revature\\c_react\\flashcard_Project\\backend\\FlashCardAPI\\FlashCardAPI\\FlashCardAPI.csproj",
               "RelativeDocumentMoniker": "FlashCardAPI\\FlashCardAPI.csproj",
-              "ToolTip": "C:\\Users\\Macho\\source\\repos\\FlashCardAPI\\FlashCardAPI\\FlashCardAPI.csproj",
+              "ToolTip": "C:\\Users\\Macho\\Documents\\VisualStudio_Workspace\\Revature\\c_react\\flashcard_Project\\backend\\FlashCardAPI\\FlashCardAPI\\FlashCardAPI.csproj",
               "RelativeToolTip": "FlashCardAPI\\FlashCardAPI.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
@@ -173,11 +234,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 17,
               "Title": "UserContext.cs",
-              "DocumentMoniker": "C:\\Users\\Macho\\source\\repos\\FlashCardAPI\\FlashCardAPI\\Contexts\\UserContext.cs",
+              "DocumentMoniker": "C:\\Users\\Macho\\Documents\\VisualStudio_Workspace\\Revature\\c_react\\flashcard_Project\\backend\\FlashCardAPI\\FlashCardAPI\\Contexts\\UserContext.cs",
               "RelativeDocumentMoniker": "FlashCardAPI\\Contexts\\UserContext.cs",
-              "ToolTip": "C:\\Users\\Macho\\source\\repos\\FlashCardAPI\\FlashCardAPI\\Contexts\\UserContext.cs",
+              "ToolTip": "C:\\Users\\Macho\\Documents\\VisualStudio_Workspace\\Revature\\c_react\\flashcard_Project\\backend\\FlashCardAPI\\FlashCardAPI\\Contexts\\UserContext.cs",
               "RelativeToolTip": "FlashCardAPI\\Contexts\\UserContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -185,11 +246,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 18,
               "Title": "20240816205240_AddUser.cs",
-              "DocumentMoniker": "C:\\Users\\Macho\\source\\repos\\FlashCardAPI\\FlashCardAPI\\Migrations\\20240816205240_AddUser.cs",
+              "DocumentMoniker": "C:\\Users\\Macho\\Documents\\VisualStudio_Workspace\\Revature\\c_react\\flashcard_Project\\backend\\FlashCardAPI\\FlashCardAPI\\Migrations\\20240816205240_AddUser.cs",
               "RelativeDocumentMoniker": "FlashCardAPI\\Migrations\\20240816205240_AddUser.cs",
-              "ToolTip": "C:\\Users\\Macho\\source\\repos\\FlashCardAPI\\FlashCardAPI\\Migrations\\20240816205240_AddUser.cs",
+              "ToolTip": "C:\\Users\\Macho\\Documents\\VisualStudio_Workspace\\Revature\\c_react\\flashcard_Project\\backend\\FlashCardAPI\\FlashCardAPI\\Migrations\\20240816205240_AddUser.cs",
               "RelativeToolTip": "FlashCardAPI\\Migrations\\20240816205240_AddUser.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -197,11 +258,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 20,
               "Title": "UserContextModelSnapshot.cs",
-              "DocumentMoniker": "C:\\Users\\Macho\\source\\repos\\FlashCardAPI\\FlashCardAPI\\Migrations\\UserContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\Macho\\Documents\\VisualStudio_Workspace\\Revature\\c_react\\flashcard_Project\\backend\\FlashCardAPI\\FlashCardAPI\\Migrations\\UserContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "FlashCardAPI\\Migrations\\UserContextModelSnapshot.cs",
-              "ToolTip": "C:\\Users\\Macho\\source\\repos\\FlashCardAPI\\FlashCardAPI\\Migrations\\UserContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\Macho\\Documents\\VisualStudio_Workspace\\Revature\\c_react\\flashcard_Project\\backend\\FlashCardAPI\\FlashCardAPI\\Migrations\\UserContextModelSnapshot.cs",
               "RelativeToolTip": "FlashCardAPI\\Migrations\\UserContextModelSnapshot.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -209,11 +270,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 22,
               "Title": "MiddlewareException.cs",
-              "DocumentMoniker": "C:\\Users\\Macho\\source\\repos\\FlashCardAPI\\FlashCardAPI\\Exceptions\\MiddlewareException.cs",
+              "DocumentMoniker": "C:\\Users\\Macho\\Documents\\VisualStudio_Workspace\\Revature\\c_react\\flashcard_Project\\backend\\FlashCardAPI\\FlashCardAPI\\Exceptions\\MiddlewareException.cs",
               "RelativeDocumentMoniker": "FlashCardAPI\\Exceptions\\MiddlewareException.cs",
-              "ToolTip": "C:\\Users\\Macho\\source\\repos\\FlashCardAPI\\FlashCardAPI\\Exceptions\\MiddlewareException.cs",
+              "ToolTip": "C:\\Users\\Macho\\Documents\\VisualStudio_Workspace\\Revature\\c_react\\flashcard_Project\\backend\\FlashCardAPI\\FlashCardAPI\\Exceptions\\MiddlewareException.cs",
               "RelativeToolTip": "FlashCardAPI\\Exceptions\\MiddlewareException.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -221,11 +282,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 23,
               "Title": "AuthenticationFailedException.cs",
-              "DocumentMoniker": "C:\\Users\\Macho\\source\\repos\\FlashCardAPI\\FlashCardAPI\\Exceptions\\AuthenticationFailedException.cs",
+              "DocumentMoniker": "C:\\Users\\Macho\\Documents\\VisualStudio_Workspace\\Revature\\c_react\\flashcard_Project\\backend\\FlashCardAPI\\FlashCardAPI\\Exceptions\\AuthenticationFailedException.cs",
               "RelativeDocumentMoniker": "FlashCardAPI\\Exceptions\\AuthenticationFailedException.cs",
-              "ToolTip": "C:\\Users\\Macho\\source\\repos\\FlashCardAPI\\FlashCardAPI\\Exceptions\\AuthenticationFailedException.cs",
+              "ToolTip": "C:\\Users\\Macho\\Documents\\VisualStudio_Workspace\\Revature\\c_react\\flashcard_Project\\backend\\FlashCardAPI\\FlashCardAPI\\Exceptions\\AuthenticationFailedException.cs",
               "RelativeToolTip": "FlashCardAPI\\Exceptions\\AuthenticationFailedException.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -234,82 +295,80 @@
           ]
         },
         {
-          "DockedWidth": 168,
+          "DockedWidth": 133,
           "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "DeckRepo.cs",
-              "DocumentMoniker": "C:\\Users\\Macho\\source\\repos\\FlashCardAPI\\FlashCardAPI\\RepoData\\Repository\\DeckRepo.cs",
-              "RelativeDocumentMoniker": "FlashCardAPI\\RepoData\\Repository\\DeckRepo.cs",
-              "ToolTip": "C:\\Users\\Macho\\source\\repos\\FlashCardAPI\\FlashCardAPI\\RepoData\\Repository\\DeckRepo.cs",
-              "RelativeToolTip": "FlashCardAPI\\RepoData\\Repository\\DeckRepo.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwEkAAABDAAAAAAAAAA==",
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Macho\\Documents\\VisualStudio_Workspace\\Revature\\c_react\\flashcard_Project\\backend\\FlashCardAPI\\FlashCardAPI\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "FlashCardAPI\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\Macho\\Documents\\VisualStudio_Workspace\\Revature\\c_react\\flashcard_Project\\backend\\FlashCardAPI\\FlashCardAPI\\Controllers\\UserController.cs",
+              "RelativeToolTip": "FlashCardAPI\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T19:08:49.833Z",
+              "WhenOpened": "2024-08-18T20:09:46.28Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Flashcard.cs",
-              "DocumentMoniker": "C:\\Users\\Macho\\source\\repos\\FlashCardAPI\\FlashCardAPI\\Model\\Flashcard.cs",
-              "RelativeDocumentMoniker": "FlashCardAPI\\Model\\Flashcard.cs",
-              "ToolTip": "C:\\Users\\Macho\\source\\repos\\FlashCardAPI\\FlashCardAPI\\Model\\Flashcard.cs",
-              "RelativeToolTip": "FlashCardAPI\\Model\\Flashcard.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "IFlashcardRepo.cs",
+              "DocumentMoniker": "C:\\Users\\Macho\\Documents\\VisualStudio_Workspace\\Revature\\c_react\\flashcard_Project\\backend\\FlashCardAPI\\FlashCardAPI\\RepoData\\IRepository\\IFlashcardRepo.cs",
+              "RelativeDocumentMoniker": "FlashCardAPI\\RepoData\\IRepository\\IFlashcardRepo.cs",
+              "ToolTip": "C:\\Users\\Macho\\Documents\\VisualStudio_Workspace\\Revature\\c_react\\flashcard_Project\\backend\\FlashCardAPI\\FlashCardAPI\\RepoData\\IRepository\\IFlashcardRepo.cs",
+              "RelativeToolTip": "FlashCardAPI\\RepoData\\IRepository\\IFlashcardRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T19:27:35.932Z",
+              "WhenOpened": "2024-08-20T22:40:26.846Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "C:\\Users\\Macho\\source\\repos\\FlashCardAPI\\FlashCardAPI\\ServiceData\\IService\\IUserService.cs",
-              "RelativeDocumentMoniker": "FlashCardAPI\\ServiceData\\IService\\IUserService.cs",
-              "ToolTip": "C:\\Users\\Macho\\source\\repos\\FlashCardAPI\\FlashCardAPI\\ServiceData\\IService\\IUserService.cs",
-              "RelativeToolTip": "FlashCardAPI\\ServiceData\\IService\\IUserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAANAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "DeckController.cs",
+              "DocumentMoniker": "C:\\Users\\Macho\\Documents\\VisualStudio_Workspace\\Revature\\c_react\\flashcard_Project\\backend\\FlashCardAPI\\FlashCardAPI\\Controllers\\DeckController.cs",
+              "RelativeDocumentMoniker": "FlashCardAPI\\Controllers\\DeckController.cs",
+              "ToolTip": "C:\\Users\\Macho\\Documents\\VisualStudio_Workspace\\Revature\\c_react\\flashcard_Project\\backend\\FlashCardAPI\\FlashCardAPI\\Controllers\\DeckController.cs",
+              "RelativeToolTip": "FlashCardAPI\\Controllers\\DeckController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-19T13:13:10.881Z",
+              "WhenOpened": "2024-08-20T20:38:31.702Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 15,
               "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\Macho\\source\\repos\\FlashCardAPI\\FlashCardAPI\\ServiceData\\Service\\UserService.cs",
+              "DocumentMoniker": "C:\\Users\\Macho\\Documents\\VisualStudio_Workspace\\Revature\\c_react\\flashcard_Project\\backend\\FlashCardAPI\\FlashCardAPI\\ServiceData\\Service\\UserService.cs",
               "RelativeDocumentMoniker": "FlashCardAPI\\ServiceData\\Service\\UserService.cs",
-              "ToolTip": "C:\\Users\\Macho\\source\\repos\\FlashCardAPI\\FlashCardAPI\\ServiceData\\Service\\UserService.cs",
+              "ToolTip": "C:\\Users\\Macho\\Documents\\VisualStudio_Workspace\\Revature\\c_react\\flashcard_Project\\backend\\FlashCardAPI\\FlashCardAPI\\ServiceData\\Service\\UserService.cs",
               "RelativeToolTip": "FlashCardAPI\\ServiceData\\Service\\UserService.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-18T20:27:49.903Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-18T20:27:49.903Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 12,
               "Title": "UserRepo.cs",
-              "DocumentMoniker": "C:\\Users\\Macho\\source\\repos\\FlashCardAPI\\FlashCardAPI\\RepoData\\Repository\\UserRepo.cs",
+              "DocumentMoniker": "C:\\Users\\Macho\\Documents\\VisualStudio_Workspace\\Revature\\c_react\\flashcard_Project\\backend\\FlashCardAPI\\FlashCardAPI\\RepoData\\Repository\\UserRepo.cs",
               "RelativeDocumentMoniker": "FlashCardAPI\\RepoData\\Repository\\UserRepo.cs",
-              "ToolTip": "C:\\Users\\Macho\\source\\repos\\FlashCardAPI\\FlashCardAPI\\RepoData\\Repository\\UserRepo.cs",
+              "ToolTip": "C:\\Users\\Macho\\Documents\\VisualStudio_Workspace\\Revature\\c_react\\flashcard_Project\\backend\\FlashCardAPI\\FlashCardAPI\\RepoData\\Repository\\UserRepo.cs",
               "RelativeToolTip": "FlashCardAPI\\RepoData\\Repository\\UserRepo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAFcAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-18T20:21:51.323Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-18T20:21:51.323Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "IUserRepo.cs",
-              "DocumentMoniker": "C:\\Users\\Macho\\source\\repos\\FlashCardAPI\\FlashCardAPI\\RepoData\\IRepository\\IUserRepo.cs",
+              "DocumentMoniker": "C:\\Users\\Macho\\Documents\\VisualStudio_Workspace\\Revature\\c_react\\flashcard_Project\\backend\\FlashCardAPI\\FlashCardAPI\\RepoData\\IRepository\\IUserRepo.cs",
               "RelativeDocumentMoniker": "FlashCardAPI\\RepoData\\IRepository\\IUserRepo.cs",
-              "ToolTip": "C:\\Users\\Macho\\source\\repos\\FlashCardAPI\\FlashCardAPI\\RepoData\\IRepository\\IUserRepo.cs",
+              "ToolTip": "C:\\Users\\Macho\\Documents\\VisualStudio_Workspace\\Revature\\c_react\\flashcard_Project\\backend\\FlashCardAPI\\FlashCardAPI\\RepoData\\IRepository\\IUserRepo.cs",
               "RelativeToolTip": "FlashCardAPI\\RepoData\\IRepository\\IUserRepo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -318,37 +377,60 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 16,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\Macho\\Documents\\VisualStudio_Workspace\\Revature\\c_react\\flashcard_Project\\backend\\FlashCardAPI\\FlashCardAPI\\ServiceData\\IService\\IUserService.cs",
+              "RelativeDocumentMoniker": "FlashCardAPI\\ServiceData\\IService\\IUserService.cs",
+              "ToolTip": "C:\\Users\\Macho\\Documents\\VisualStudio_Workspace\\Revature\\c_react\\flashcard_Project\\backend\\FlashCardAPI\\FlashCardAPI\\ServiceData\\IService\\IUserService.cs",
+              "RelativeToolTip": "FlashCardAPI\\ServiceData\\IService\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T13:13:10.881Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Flashcard.cs",
+              "DocumentMoniker": "C:\\Users\\Macho\\Documents\\VisualStudio_Workspace\\Revature\\c_react\\flashcard_Project\\backend\\FlashCardAPI\\FlashCardAPI\\Model\\Flashcard.cs",
+              "RelativeDocumentMoniker": "FlashCardAPI\\Model\\Flashcard.cs",
+              "ToolTip": "C:\\Users\\Macho\\Documents\\VisualStudio_Workspace\\Revature\\c_react\\flashcard_Project\\backend\\FlashCardAPI\\FlashCardAPI\\Model\\Flashcard.cs",
+              "RelativeToolTip": "FlashCardAPI\\Model\\Flashcard.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T19:27:35.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "Deck.cs",
-              "DocumentMoniker": "C:\\Users\\Macho\\source\\repos\\FlashCardAPI\\FlashCardAPI\\Model\\Deck.cs",
+              "DocumentMoniker": "C:\\Users\\Macho\\Documents\\VisualStudio_Workspace\\Revature\\c_react\\flashcard_Project\\backend\\FlashCardAPI\\FlashCardAPI\\Model\\Deck.cs",
               "RelativeDocumentMoniker": "FlashCardAPI\\Model\\Deck.cs",
-              "ToolTip": "C:\\Users\\Macho\\source\\repos\\FlashCardAPI\\FlashCardAPI\\Model\\Deck.cs",
+              "ToolTip": "C:\\Users\\Macho\\Documents\\VisualStudio_Workspace\\Revature\\c_react\\flashcard_Project\\backend\\FlashCardAPI\\FlashCardAPI\\Model\\Deck.cs",
               "RelativeToolTip": "FlashCardAPI\\Model\\Deck.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-16T19:17:17.296Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-16T19:17:17.296Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 14,
               "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\Macho\\source\\repos\\FlashCardAPI\\FlashCardAPI\\Model\\User.cs",
+              "DocumentMoniker": "C:\\Users\\Macho\\Documents\\VisualStudio_Workspace\\Revature\\c_react\\flashcard_Project\\backend\\FlashCardAPI\\FlashCardAPI\\Model\\User.cs",
               "RelativeDocumentMoniker": "FlashCardAPI\\Model\\User.cs",
-              "ToolTip": "C:\\Users\\Macho\\source\\repos\\FlashCardAPI\\FlashCardAPI\\Model\\User.cs",
+              "ToolTip": "C:\\Users\\Macho\\Documents\\VisualStudio_Workspace\\Revature\\c_react\\flashcard_Project\\backend\\FlashCardAPI\\FlashCardAPI\\Model\\User.cs",
               "RelativeToolTip": "FlashCardAPI\\Model\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-16T20:04:22.997Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-16T20:04:22.997Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 24,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Macho\\source\\repos\\FlashCardAPI\\FlashCardAPI\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Macho\\Documents\\VisualStudio_Workspace\\Revature\\c_react\\flashcard_Project\\backend\\FlashCardAPI\\FlashCardAPI\\appsettings.json",
               "RelativeDocumentMoniker": "FlashCardAPI\\appsettings.json",
-              "ToolTip": "C:\\Users\\Macho\\source\\repos\\FlashCardAPI\\FlashCardAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\Macho\\Documents\\VisualStudio_Workspace\\Revature\\c_react\\flashcard_Project\\backend\\FlashCardAPI\\FlashCardAPI\\appsettings.json",
               "RelativeToolTip": "FlashCardAPI\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",

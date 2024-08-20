@@ -15,7 +15,7 @@ namespace FlashCardAPI.RepoData.IRepository
 
         Task<Flashcard> GetFlashcardById(Guid id);
         //Update
-        Task<User> UpdateFlashcard(Guid id, Flashcard flashcard);
+        Task<Flashcard> UpdateFlashcard(Guid id, Flashcard flashcard);
         //Delete
         Task DeleteFlashcard(Guid id);
     }

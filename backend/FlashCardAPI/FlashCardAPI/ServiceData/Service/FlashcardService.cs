@@ -1,4 +1,5 @@
 ﻿using FlashCardAPI.Model;
+using FlashCardAPI.RepoData.IRepository;
 using FlashCardAPI.RepoData.Repository;
 using FlashCardAPI.ServiceData.IService;
 
@@ -6,9 +7,9 @@ namespace FlashCardAPI.ServiceData.Service
 {
     public class FlashcardService : IFlashcardService
     {
-        private readonly FlashcardRepo _flashcardRepo;
+        private readonly IFlashcardRepo _flashcardRepo;
 
-        public FlashcardService(FlashcardRepo flashcardRepo)
+        public FlashcardService(IFlashcardRepo flashcardRepo)
         {
             _flashcardRepo = flashcardRepo;
         }
@@ -22,7 +23,7 @@ namespace FlashCardAPI.ServiceData.Service
             return _flashcardRepo.GetAllFlashcards();
         }
 
-        public Task<IEnumerable<Flashcard>> GetAllFlashcardsBydeckId(Guid deckId)
+        public Task<IEnumerable<Flashcard>> GetAllFlashcardsByDeckId(Guid deckId)
         {
             return _flashcardRepo.GetAllFlashcardsBydeckId(deckId);
         }
@@ -42,12 +43,12 @@ namespace FlashCardAPI.ServiceData.Service
             return _flashcardRepo.InsertFlashcard(question, answer, deckId);
         }
 
-        public Task PutFlashcard(Guid id, string question, string? answer, Guid deckId)
+        public Task PutFlashcard(Flashcard flashcard)
         {
-            return _flashcardRepo.PutFlashcard(id, question, answer, deckId);
+            return _flashcardRepo.PutFlashcard(flashcard);
         }
 
-        public Task<User> UpdateFlashcard(Guid id, Flashcard flashcard)
+        public Task<Flashcard> UpdateFlashcard(Guid id, Flashcard flashcard)
         {
             return _flashcardRepo.UpdateFlashcard(id, flashcard);
         }

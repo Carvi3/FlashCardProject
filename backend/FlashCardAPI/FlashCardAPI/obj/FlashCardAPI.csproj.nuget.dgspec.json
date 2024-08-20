@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Macho\\source\\repos\\FlashCardAPI\\FlashCardAPI\\FlashCardAPI.csproj": {}
+    "C:\\Users\\Macho\\Documents\\VisualStudio_Workspace\\Revature\\c_react\\flashcard_Project\\backend\\FlashCardAPI\\FlashCardAPI\\FlashCardAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Macho\\source\\repos\\FlashCardAPI\\FlashCardAPI\\FlashCardAPI.csproj": {
+    "C:\\Users\\Macho\\Documents\\VisualStudio_Workspace\\Revature\\c_react\\flashcard_Project\\backend\\FlashCardAPI\\FlashCardAPI\\FlashCardAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Macho\\source\\repos\\FlashCardAPI\\FlashCardAPI\\FlashCardAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Macho\\Documents\\VisualStudio_Workspace\\Revature\\c_react\\flashcard_Project\\backend\\FlashCardAPI\\FlashCardAPI\\FlashCardAPI.csproj",
         "projectName": "FlashCardAPI",
-        "projectPath": "C:\\Users\\Macho\\source\\repos\\FlashCardAPI\\FlashCardAPI\\FlashCardAPI.csproj",
+        "projectPath": "C:\\Users\\Macho\\Documents\\VisualStudio_Workspace\\Revature\\c_react\\flashcard_Project\\backend\\FlashCardAPI\\FlashCardAPI\\FlashCardAPI.csproj",
         "packagesPath": "C:\\Users\\Macho\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Macho\\source\\repos\\FlashCardAPI\\FlashCardAPI\\obj\\",
+        "outputPath": "C:\\Users\\Macho\\Documents\\VisualStudio_Workspace\\Revature\\c_react\\flashcard_Project\\backend\\FlashCardAPI\\FlashCardAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Macho\\AppData\\Roaming\\NuGet\\NuGet.Config",
