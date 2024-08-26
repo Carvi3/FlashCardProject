@@ -5,7 +5,7 @@ namespace FlashCardAPI.RepoData.IRepository
     public interface IUserRepo
     {
         //Create
-        Task<User> InsertUser(string username, string password);
+        Task<User> InsertUser(User user);
         Task PutUser(User user);
         //Read
 

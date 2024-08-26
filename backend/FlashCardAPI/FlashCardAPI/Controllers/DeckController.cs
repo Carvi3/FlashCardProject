@@ -22,16 +22,16 @@ namespace FlashCardAPI.Controllers
             return Ok(await _deckService.GetAllDecks());
         }
 
-        [HttpGet("getAllDecks/{userId}")]
+        [HttpGet("getAllDecksByUserId/{userId}")]
         public async Task<ActionResult<IEnumerable<Deck>>> GetAllDecksByUserId(Guid userId)
         {
             return Ok(await _deckService.GetAllDecksByUserId(userId));
         }
 
         [HttpPost("createDeck")]
-        public async Task<ActionResult<Deck>> CreateDeck(string name, string category, string description, Guid userId)
+        public async Task<ActionResult<Deck>> CreateDeck(Deck deck)
         {
-            var newDeck = await _deckService.InsertDeck(name, category, description, userId);
+            var newDeck = await _deckService.InsertDeck(deck);
             if(newDeck != null)
             {
                 return Created(string.Empty, newDeck);

@@ -42,8 +42,8 @@ namespace FlashCardAPI.Controllers
         }
 
         [HttpPost("createUser")]
-        public async Task<ActionResult<User>> CreateUser(string username, string password) {
-            var newUser = await _userService.InsertUser(username, password);
+        public async Task<ActionResult<User>> CreateUser(User user) {
+            var newUser = await _userService.InsertUser(user);
             if(newUser != null)
             {
                 return Created(string.Empty, newUser);

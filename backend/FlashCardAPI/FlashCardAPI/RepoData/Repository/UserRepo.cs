@@ -56,14 +56,14 @@ namespace FlashCardAPI.RepoData.Repository
             throw new Exception();
         }
 
-        public async Task<User> InsertUser(string username, string password)
+        public async Task<User> InsertUser(User user)
         {
             //User duplicateUser = (User)_context.User.FromSqlRaw($"SELECT id FROM User where Username = {username};");
             //if(duplicateUser == null)
             //{
-                User user = _context.User.Add(new User(Guid.Empty, username, password)).Entity;
+                User newUser = _context.User.Add(user).Entity;
                 await _context.SaveChangesAsync();
-                return user;
+                return newUser;
             //}
             //throw new AuthenticationFailedException("Account Already Exists");
         }

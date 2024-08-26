@@ -33,9 +33,10 @@ namespace FlashCardAPI.ServiceData.Service
             return _deckRepo.GetDeckById(id);
         }
 
-        public Task<Deck> InsertDeck(string name, string category, string description, Guid userId)
+        public Task<Deck> InsertDeck(Deck deck)
         {
-            return _deckRepo.InsertDeck(name, category, description, userId);
+            deck = new Deck(deck.Name, deck.Category, deck.Description, deck.UserId);
+            return _deckRepo.InsertDeck(deck);
         }
 
         public Task PutDeck(Deck deck)

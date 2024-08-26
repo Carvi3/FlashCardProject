@@ -1,107 +1,5 @@
 [
   {
-    "ContainingType": "FlashCardAPI.Controllers.FlashcardController",
-    "Method": "DeleteFlashcard",
-    "RelativePath": "{id}",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Guid",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "FlashCardAPI.Controllers.FlashcardController",
-    "Method": "UpdateFlashcard",
-    "RelativePath": "{id}",
-    "HttpMethod": "PATCH",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Guid",
-        "IsRequired": false
-      },
-      {
-        "Name": "Id",
-        "Type": "System.Guid",
-        "IsRequired": true
-      },
-      {
-        "Name": "Question",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "Answer",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "DeckId",
-        "Type": "System.Guid",
-        "IsRequired": false
-      },
-      {
-        "Name": "Decks.Id",
-        "Type": "System.Guid",
-        "IsRequired": false
-      },
-      {
-        "Name": "Decks.Name",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "Decks.Category",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "Decks.Description",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "Decks.UserId",
-        "Type": "System.Guid",
-        "IsRequired": false
-      },
-      {
-        "Name": "Decks.Users.Id",
-        "Type": "System.Guid",
-        "IsRequired": false
-      },
-      {
-        "Name": "Decks.Users.Username",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "Decks.Users.Password",
-        "Type": "System.String",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "FlashCardAPI.Model.Deck",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
     "ContainingType": "FlashCardAPI.Controllers.DeckController",
     "Method": "PutDeck",
     "RelativePath": "api/Deck",
@@ -173,24 +71,9 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "name",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "category",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "description",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "userId",
-        "Type": "System.Guid",
-        "IsRequired": false
+        "Name": "deck",
+        "Type": "FlashCardAPI.Model.Deck",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": [
@@ -228,7 +111,7 @@
   {
     "ContainingType": "FlashCardAPI.Controllers.DeckController",
     "Method": "GetAllDecksByUserId",
-    "RelativePath": "api/Deck/getAllDecks/{userId}",
+    "RelativePath": "api/Deck/getAllDecksByUserId/{userId}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -242,6 +125,141 @@
     "ReturnTypes": [
       {
         "Type": "System.Collections.Generic.IEnumerable\u00601[[FlashCardAPI.Model.Deck, FlashCardAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "FlashCardAPI.Controllers.FlashcardController",
+    "Method": "PutFlashcard",
+    "RelativePath": "api/Flashcard",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "card",
+        "Type": "FlashCardAPI.Model.Flashcard",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FlashCardAPI.Controllers.FlashcardController",
+    "Method": "DeleteFlashcard",
+    "RelativePath": "api/Flashcard/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FlashCardAPI.Controllers.FlashcardController",
+    "Method": "UpdateFlashcard",
+    "RelativePath": "api/Flashcard/{id}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "card",
+        "Type": "FlashCardAPI.Model.Flashcard",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "FlashCardAPI.Model.Deck",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "FlashCardAPI.Controllers.FlashcardController",
+    "Method": "CreateFlashcard",
+    "RelativePath": "api/Flashcard/createFlashcard",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "flashcard",
+        "Type": "FlashCardAPI.Model.Flashcard",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "FlashCardAPI.Model.Deck",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "FlashCardAPI.Controllers.FlashcardController",
+    "Method": "GetAllFlashcards",
+    "RelativePath": "api/Flashcard/GetAllFlashcards",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[FlashCardAPI.Model.Flashcard, FlashCardAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "FlashCardAPI.Controllers.FlashcardController",
+    "Method": "GetAllFlashcardsByDeck",
+    "RelativePath": "api/Flashcard/GetAllFlashcardsByDeck/{deckId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "deckId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[FlashCardAPI.Model.Flashcard, FlashCardAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -349,14 +367,9 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "username",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "password",
-        "Type": "System.String",
-        "IsRequired": false
+        "Name": "user",
+        "Type": "FlashCardAPI.Model.User",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": [
@@ -413,88 +426,6 @@
     "ReturnTypes": [
       {
         "Type": "FlashCardAPI.Model.User",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "FlashCardAPI.Controllers.FlashcardController",
-    "Method": "CreateFlashcard",
-    "RelativePath": "createFlashcard",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "question",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "answer",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "deckId",
-        "Type": "System.Guid",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "FlashCardAPI.Model.Deck",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "FlashCardAPI.Controllers.FlashcardController",
-    "Method": "GetAllFlashcards",
-    "RelativePath": "GetAllFlashcards",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[FlashCardAPI.Model.Flashcard, FlashCardAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "FlashCardAPI.Controllers.FlashcardController",
-    "Method": "GetAllFlashcardsByDeck",
-    "RelativePath": "GetAllFlashcardsByDeck/{deckId}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "deckId",
-        "Type": "System.Guid",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[FlashCardAPI.Model.Flashcard, FlashCardAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",

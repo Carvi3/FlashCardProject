@@ -32,9 +32,10 @@ namespace FlashCardAPI.ServiceData.Service
             return _userRepo.GetUserById(id);
         }
 
-        public Task<User> InsertUser(string username, string password)
+        public Task<User> InsertUser(User user)
         {
-            return _userRepo.InsertUser(username, password);
+            user = new User(Guid.Empty, user.Username, user.Password);
+            return _userRepo.InsertUser(user);
         }
 
         public Task PutUser(User user)

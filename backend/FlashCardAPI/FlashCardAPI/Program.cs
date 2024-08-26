@@ -34,7 +34,7 @@ builder.Services.AddSwaggerGen();
 var app = builder.Build();
 
 
-app.UseMiddleware<MiddlewareException>();
+//app.UseMiddleware<MiddlewareException>();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
@@ -44,6 +44,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+app.UseCors(o => o.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod());
 
 app.UseAuthorization();
 

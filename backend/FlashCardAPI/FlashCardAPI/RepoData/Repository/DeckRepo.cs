@@ -45,11 +45,11 @@ namespace FlashCardAPI.RepoData.Repository
             return foundDeck ?? throw new ContentNotFoundException("There was an error retrieving the deck");
         }
 
-        public async Task<Deck> InsertDeck(string name, string category, string description, Guid userId)
+        public async Task<Deck> InsertDeck(Deck deck)
         {
-            Deck deck = _context.Deck.Add(new Deck(name, category, description, userId)).Entity;
+            Deck newDeck = _context.Deck.Add(deck).Entity;
             await _context.SaveChangesAsync();
-            return deck ?? throw new Exception("Deck could not be Added to Database");
+            return newDeck ?? throw new Exception("Deck could not be Added to Database");
         }
 
         public async Task PutDeck(Deck deck)

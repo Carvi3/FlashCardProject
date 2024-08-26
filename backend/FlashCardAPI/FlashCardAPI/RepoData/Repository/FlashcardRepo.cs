@@ -49,9 +49,9 @@ namespace FlashCardAPI.RepoData.Repository
             return foundCard ?? throw new ContentNotFoundException("There was an error retrieving the flashcard");
         }
 
-        public async Task<Flashcard> InsertFlashcard(string question, string? answer, Guid deckId)
+        public async Task<Flashcard> InsertFlashcard(Flashcard flashcard)
         {
-            Flashcard card = _context.Flashcard.Add(new Flashcard(question, answer, deckId)).Entity;
+            Flashcard card = _context.Flashcard.Add(flashcard).Entity;
             await _context.SaveChangesAsync();
             return card ?? throw new Exception("Flashcard could not be added");
         }

@@ -37,8 +37,8 @@ namespace FlashCardAPI.Controllers
         */
 
         [HttpPost("createFlashcard")]
-        public async Task<ActionResult<Deck>> CreateFlashcard(string question, string? answer, Guid deckId) { 
-            var newCard = await _cardService.InsertFlashcard(question, answer, deckId);
+        public async Task<ActionResult<Deck>> CreateFlashcard(Flashcard flashcard) { 
+            var newCard = await _cardService.InsertFlashcard(flashcard);
             if(newCard != null)
             {
                 return Created(string.Empty, newCard);
@@ -68,7 +68,7 @@ namespace FlashCardAPI.Controllers
             {
                 return Ok(updatedDeck);
             }
-            throw new Exception();
+            return NoContent();
         }
     }
 }

@@ -5,7 +5,7 @@ namespace FlashCardAPI.ServiceData.IService
     public interface IFlashcardService
     {
         //Create
-        Task<Flashcard> InsertFlashcard(string question, string? answer, Guid deckId);
+        Task<Flashcard> InsertFlashcard(Flashcard card);
         Task PutFlashcard(Flashcard card);
         //Read
 

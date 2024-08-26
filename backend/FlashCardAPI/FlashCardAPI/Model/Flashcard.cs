@@ -6,7 +6,13 @@ namespace FlashCardAPI.Model
 {
     public class Flashcard
     {
-
+        public Flashcard()
+        {
+            Id = Guid.Empty;
+            Question = "";
+            Answer = "";
+            DeckId = Guid.Empty;
+        }
         public Flashcard(string question, Guid deckId)
         {
             Id = Guid.Empty;
@@ -34,16 +40,16 @@ namespace FlashCardAPI.Model
         [Key]
         public Guid Id { get; set; }
 
-        [JsonPropertyName("problem")]
+        [JsonPropertyName("question")]
         public string Question { get; set; }
 
         [JsonPropertyName("answer")]
         public string Answer { get; set; }
 
-        [Display(Name = "Deck")]
-        public virtual Guid DeckId { get; set; }
+        [ForeignKey("Deck")]
+        public Guid DeckId { get; set; }
 
-        [ForeignKey("DeckId")]
-        public virtual Deck Decks { get; set; }
+        //[ForeignKey("DeckId")]
+        //public virtual Deck Decks { get; set; }
     }
 }

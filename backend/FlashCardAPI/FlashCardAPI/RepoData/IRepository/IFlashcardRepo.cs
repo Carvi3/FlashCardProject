@@ -5,7 +5,7 @@ namespace FlashCardAPI.RepoData.IRepository
     public interface IFlashcardRepo
     {
         //Create
-        Task<Flashcard> InsertFlashcard(string question, string? answer, Guid deckId);
+        Task<Flashcard> InsertFlashcard(Flashcard flashcard);
         Task PutFlashcard(Flashcard flashcard);
         //Read
 

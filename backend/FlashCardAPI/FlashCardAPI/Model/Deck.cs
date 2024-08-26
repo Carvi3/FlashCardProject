@@ -42,11 +42,11 @@ namespace FlashCardAPI.Model
         [JsonPropertyName("description")]
         public string Description { get; set; }
 
-        [Display(Name = "User")]
-        public virtual Guid UserId { get; set; }
+        [ForeignKey("User")]
+        public Guid UserId { get; set; }
 
-        [ForeignKey("UserId")]
-        public User Users { get; set; }
+        //[ForeignKey("UserId")]
+        //public User? Users { get; set; }
 
     }
 }

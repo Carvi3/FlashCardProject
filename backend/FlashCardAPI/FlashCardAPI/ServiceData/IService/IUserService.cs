@@ -5,7 +5,7 @@ namespace FlashCardAPI.ServiceData.IService
     public interface IUserService
     {
         //Create
-        Task<User> InsertUser(string username, string password);
+        Task<User> InsertUser(User user);
         Task PutUser(User user);
         //Read
 

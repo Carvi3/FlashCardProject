@@ -38,9 +38,14 @@ namespace FlashCardAPI.ServiceData.Service
             return _flashcardRepo.GetFlashcardById(id);
         }
 
-        public Task<Flashcard> InsertFlashcard(string question, string? answer, Guid deckId)
+        public Task<Flashcard> InsertFlashcard(Flashcard flashcard)
         {
-            return _flashcardRepo.InsertFlashcard(question, answer, deckId);
+            if(flashcard.Question.Length == 0)
+            {
+                throw new Exception("Question length cannot be 0");
+            }
+            flashcard = new Flashcard(flashcard.Question, flashcard.Answer, flashcard.DeckId);
+            return _flashcardRepo.InsertFlashcard(flashcard);
         }
 
         public Task PutFlashcard(Flashcard flashcard)
