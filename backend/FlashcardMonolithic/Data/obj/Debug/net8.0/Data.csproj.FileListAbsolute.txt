@@ -1,0 +1,17 @@
+C:\Users\Macho\source\repos\FlashcardMonolithic\Data\obj\Debug\net8.0\Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Macho\source\repos\FlashcardMonolithic\Data\obj\Debug\net8.0\Data.AssemblyInfoInputs.cache
+C:\Users\Macho\source\repos\FlashcardMonolithic\Data\obj\Debug\net8.0\Data.AssemblyInfo.cs
+C:\Users\Macho\source\repos\FlashcardMonolithic\Data\obj\Debug\net8.0\Data.csproj.CoreCompileInputs.cache
+C:\Users\Macho\source\repos\FlashcardMonolithic\Data\bin\Debug\net8.0\Data.deps.json
+C:\Users\Macho\source\repos\FlashcardMonolithic\Data\bin\Debug\net8.0\Data.runtimeconfig.json
+C:\Users\Macho\source\repos\FlashcardMonolithic\Data\bin\Debug\net8.0\Data.dll
+C:\Users\Macho\source\repos\FlashcardMonolithic\Data\bin\Debug\net8.0\Data.pdb
+C:\Users\Macho\source\repos\FlashcardMonolithic\Data\bin\Debug\net8.0\Domain.dll
+C:\Users\Macho\source\repos\FlashcardMonolithic\Data\bin\Debug\net8.0\Domain.pdb
+C:\Users\Macho\source\repos\FlashcardMonolithic\Data\obj\Debug\net8.0\Data.csproj.AssemblyReference.cache
+C:\Users\Macho\source\repos\FlashcardMonolithic\Data\obj\Debug\net8.0\Data.csproj.Up2Date
+C:\Users\Macho\source\repos\FlashcardMonolithic\Data\obj\Debug\net8.0\Data.dll
+C:\Users\Macho\source\repos\FlashcardMonolithic\Data\obj\Debug\net8.0\refint\Data.dll
+C:\Users\Macho\source\repos\FlashcardMonolithic\Data\obj\Debug\net8.0\Data.pdb
+C:\Users\Macho\source\repos\FlashcardMonolithic\Data\obj\Debug\net8.0\Data.genruntimeconfig.cache
+C:\Users\Macho\source\repos\FlashcardMonolithic\Data\obj\Debug\net8.0\ref\Data.dll

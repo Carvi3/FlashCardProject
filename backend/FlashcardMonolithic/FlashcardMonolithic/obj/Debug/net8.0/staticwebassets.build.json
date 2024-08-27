@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "6PNq3wwDq7jZrtrKK1h+VeHgc7yKFQmeLJGs0P2H7Zg=",
+  "Source": "FlashcardMonolithic",
+  "BasePath": "_content/FlashcardMonolithic",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
